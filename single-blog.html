@@ -7,9 +7,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="icon" href="andres.ico">
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+        <link rel="stylesheet" href="estilos.css">
+        
+        <link rel="stylesheet" href="estilos.css">
+        
 		
 		<!-- Title -->
-		<title>Baha - Personal Portfolio Template</title>
+		<title>Blog - Andres Gaibor</title>
 
 		<!-- CSS Plugins -->
         <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
@@ -38,23 +48,23 @@
             </div>
             <div class="style-menu">
                 <div class="style-nav">
-                    <h4 class="mt-15 mb-10">Menu Position</h4>
+                    <h4 class="mt-15 mb-10">Posicion del menú</h4>
                     <ul>
-						<li><a href="css/settings/top-nav.css"><i class="fas fa-caret-up"></i> Top</a></li>
-                        <li><a href="css/settings/left-nav.css"><i class="fas fa-caret-left"></i> Left</a></li>
-                        <li><a href="css/settings/right-nav.css"><i class="fas fa-caret-right"></i> Right</a></li>
-                        <li><a href="css/settings/bottom-nav.css"><i class="fas fa-caret-down"></i> Bottom</a></li>
+						<li><a href="css/settings/top-nav.css"><i class="fas fa-caret-up"></i> Arriba</a></li>
+                        <li><a href="css/settings/left-nav.css"><i class="fas fa-caret-left"></i> Isquierda</a></li>
+                        <li><a href="css/settings/right-nav.css"><i class="fas fa-caret-right"></i> Derecha</a></li>
+                        <li><a href="css/settings/bottom-nav.css"><i class="fas fa-caret-down"></i> Abajo</a></li>
                     </ul>
                 </div>
 				<div class="style-back">
-                    <h4 class="mt-85 mb-10">Style Color</h4>
+                    <h4 class="mt-85 mb-10">Estilo Color</h4>
                     <ul>
-                        <li><a href="css/style-dark.css"><i class="fas fa-moon"></i> Dark</a></li>
-                        <li><a href="css/style-light.css"><i class="far fa-lightbulb"></i> Light</a></li>
+                        <li><a href="css/style-dark.css"><i class="fas fa-moon"></i> Oscuro</a></li>
+                        <li><a href="css/style-light.css"><i class="far fa-lightbulb"></i> Ligero</a></li>
                     </ul>
                 </div>
 				<div class="style-color">
-                    <h4 class="mt-55 mb-10">Theme Color</h4>
+                    <h4 class="mt-55 mb-10">Color del Tema</h4>
                     <ul>
                         <li><a href="css/settings/green-color.css" style="background-color: #25ca7f;"></a></li>
 						<li><a href="css/settings/blue-color.css" style="background-color: #00a3e1;"></a></li>
@@ -90,7 +100,7 @@
             </div>
 				
           	<ul>
-				<li data-tooltip="home" data-position="top">
+				<li data-tooltip="casa" data-position="top">
             		<a href="index.html" class="fas fa-house-damage"></a>
 				</li>
 				<li>
@@ -99,7 +109,7 @@
           	</ul>
 				
 			<!-- Sound wave -->
-    		<a class="music-bg">
+    		<a class="music-bg" onclick="control()">
       			<div class="lines">
         			<span></span>
         			<span></span>
@@ -107,52 +117,102 @@
         			<span></span>
 					<span></span>
 					<span></span>
+			<audio autoplay loop>
+            <!--cambia el src por tu archivo de musica en formato mp3-->
+            <source src="bensound-beyondtheline.mp3" type="audio/mpeg">
+            </audio>
+      		
+      		</div>
+				<p> Sonido </p>					
+    		</a>
+
+        <script>
+         var contador=1;
+         var audio=document.getElementsByTagName("audio")[0];
+         audio.play();
+ 
+         function control(){
+ 
+            contador = contador+1
+            if (contador%2==0){
+            audio.pause();
+            } else {
+            audio.play();
+            }
+        }
+        </script>
+
+			 </nav>
       			</div>
-				<p> Sound </p>
     		</a>
 		 </nav>
 		
 		<!--Blog Page-->
 		<div class="blog-page" data-simplebar>
 			<nav class="blog-nav">
-            	<a href="#" data-tooltip="prev" data-position="left">
+            	<a href="#" data-tooltip="anterior" data-position="left">
 					<i class="fas fa-long-arrow-alt-left"></i>
 				</a>
             	<a href="index.html#blog">
 					<i class="fas fa-bars"></i>
 				</a>
-            	<a href="#" data-tooltip="next" data-position="right">
+            	<a href="#" data-tooltip="siguiente" data-position="right">
 					<i class="fas fa-long-arrow-alt-right"></i>
 				</a>
             </nav>
-			<div class="blog-image">
-				<img src="img/blog/blog-page-img.jpg" alt="">
-			</div>
+
+            <div class="slider">
+    <ul>
+        <li>
+            <img src="https://i.pinimg.com/originals/74/52/db/7452db2aafa89196801ef4fe680137e0.jpg">
+        </li>
+        <li>
+            <img src="https://s1.1zoom.me/big0/160/354276-admin.jpg">
+        </li>
+        <li>
+            <img src="https://mobimg.b-cdn.net/pic/v2/gallery/preview/goroda-pejzazh-ulicy-22228.jpg">
+        </li>
+        <li>
+            <img src="http://2.bp.blogspot.com/-dNtt1v-HAOE/UFdRpT_pY9I/AAAAAAAABXw/gBzxja1td3Y/s1600/fondos-escritorio-ciudades-1280.jpg">
+        </li>
+    </ul>
+</div>
 			<div class="row blog-container">
 				<div class="col-md-10 offset-md-1">
 						
 					<!-- Heading -->
 					<div class="blog-heading pt-70 pb-100">
-						<h2>Road to success</h2>
-						<span><i class="fas fa-home"></i><a href="#">Brand</a></span>
-						<span><i class="fas fa-comment"></i><a href="#">5 comments</a></span>
-						<span><i class="fas fa-calendar-alt"></i>January 06, 2019</span>
+						<h2>Camino al Exito</h2>
+						<span><i class="fas fa-home"></i><a href="#">Marca</a></span>
+						<span><i class="fas fa-comment"></i><a href="#">5 comentarios</a></span>
+						<span><i class="fas fa-calendar-alt"></i>15 de Enero del 2022</span>
 					</div>
 
 					<!-- Content -->
 					<div class="blog-content">
-						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.</p>
-						<p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-						<blockquote>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.
-							<span><img src="img/user-photo.jpg" alt=""> Mark Johnson</span>
+						<p>Al emprender una meta tenemos que tener claro nuestros objetivos cada paso que demos cada idea
+                        que surja de nuestras mentes debe ser objetiva y debe trabajarse de forma clara esta seria 
+                        uno de los puntos claves para llevar a cabo nuestros sueños y llevarlos al exito es nunca rendirse 
+                        pues sin importar las problematicas que se presenten debemos mantener nuestro objetivo en pie 
+                        sin desmallar no devemos poner excusas 
+                        hay que esforsarse
+                        sin olvidar nuestros principios 
+                        aveses arriesgarse 
+                        pero siempre ponernos metas ralistas 
+                        y ser positivos.</p>
+						<p></p>
+						<blockquote>El coraje no siempre ruje algunas veces solo es una silenciosa pero poderosa voz interior que dice: "mañana lo volvere a intentar"
+							<span><img src="img/user-photo.jpg" alt=""> Andres Gaibor</span>
 						</blockquote>
-						<p>Because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"Or randomised words which don't look even slightly believable. If you aregoing to use a passage of Lorem Ipsum, you need to be sure</p>
+						<p>asi es como yo Andres Gaibor e llegado donde estoy al principio me frustre un poco po mi carrera pero luego 
+                        me enfoque en las cosas de las cuales podria sobresalir en este ambito y empese poco a poco a mejorar y esto lo que quiero enseñarles
+                        a emprender sin miedo a perseguir sus sueñs y que nada los detenga.</p>
 					</div>
 
 					<!-- Comments -->
 					<div class="blog-comments mt-100 mb-100">
 						<div class="header-box mb-50">
-							<h3>Comments</h3>
+							<h3>Comentarios</h3>
 						</div>
 						<ul>
 							<li>
@@ -191,27 +251,32 @@
 								</div>
 							</li>
 						</ul>
+						<div align="center">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/MIIEGtaR6X8" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
+					</div>
+
+					
 
 					<!--Blog Form-->
 					<div class="header-box mb-50">
-						<h3>Leave a comment</h3>
+						<h3>Deja un comentario</h3>
 					</div>
 					
 					<div class="contact-form mb-100">
                         <form method="post" class="box contact-valid" id="contact-form">
 							<div class="row">
                             	<div class="col-lg-6 col-sm-12">
-                               		<input type="text" name="name" id="name" class="form-control" placeholder="Name *">
+                               		<input type="text" name="name" id="name" class="form-control" placeholder="Nombre *">
                             	</div>
                             	<div class="col-lg-6 col-sm-12">
                                		<input type="email" name="email" id="email" class="form-control" placeholder="Email *">
                             	</div>
                             	<div class="col-lg-12 col-sm-12">
-                                	<textarea class="form-control" name="note"  id="note" placeholder="Your Message"></textarea>
+                                	<textarea class="form-control" name="note"  id="note" placeholder="Tu Mensaje"></textarea>
                             	</div>
                              	<div class="col-lg-12 col-sm-12 text-center">
-                               		<button type="submit" class="btn-st">Send Message</button>
+                               		<button type="submit" class="btn-st">Enviar Mensaje</button>
                                		<div id="loader">
                               			<i class="fas fa-sync"></i>
                                		</div>
