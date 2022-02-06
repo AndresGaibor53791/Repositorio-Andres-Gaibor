@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+		
+		<!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="icon" href="andres.ico">
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+        <link rel="stylesheet" href="estilos.css">
+		<!-- Title -->
+		<title>Andrés Gaibor</title>
+
+		<!-- CSS Plugins -->
+        <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+        <link rel="stylesheet" href="css/plugins/font-awesome.css">
+		<link rel="stylesheet" href="css/plugins/magnific-popup.css">
+		<link rel="stylesheet" href="css/plugins/simplebar.css">
+		<link rel="stylesheet" href="css/plugins/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/plugins/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/plugins/jquery.animatedheadline.css">
+		
+		<!-- CSS Base -->
+        <link rel="stylesheet" class="back-color" href="css/style-dark.css">
+		<link rel="stylesheet" href="css/style-demo.css">
+		
+		<!-- Settings Style -->
+		<link rel="stylesheet" class="posit-nav" href="css/settings/left-nav.css" />
+		<link rel="stylesheet" class="theme-color" href="css/settings/green-color.css" />
+		
+    </head>
+    <body>
+		
+		<!--Theme Options Start-->
+        <div class="style-options">
+            <div class="toggle-btn">
+                <span><i class="fas fa-cog"></i></span>
+            </div>
+            <div class="style-menu">
+                <div class="style-nav">
+                    <h4 class="mt-15 mb-10">Posicion del menú</h4>
+                    <ul>
+						<li><a href="css/settings/top-nav.css"><i class="fas fa-caret-up"></i> Arriba</a></li>
+                        <li><a href="css/settings/left-nav.css"><i class="fas fa-caret-left"></i> Izquierda</a></li>
+                        <li><a href="css/settings/right-nav.css"><i class="fas fa-caret-right"></i> Derecha</a></li>
+                        <li><a href="css/settings/bottom-nav.css"><i class="fas fa-caret-down"></i> Abajo</a></li>
+                    </ul>
+                </div>
+				<div class="style-back">
+                    <h4 class="mt-85 mb-10">Estilo Color</h4>
+                    <ul>
+                        <li><a href="css/style-dark.css"><i class="fas fa-moon"></i> Oscuro</a></li>
+                        <li><a href="css/style-light.css"><i class="far fa-lightbulb"></i> Ligero</a></li>
+                    </ul>
+                </div>
+				<div class="style-color">
+                    <h4 class="mt-55 mb-10">Color del tema</h4>
+                    <ul>
+                        <li><a href="css/settings/green-color.css" style="background-color: #25ca7f;"></a></li>
+						<li><a href="css/settings/blue-color.css" style="background-color: #00a3e1;"></a></li>
+                        <li><a href="css/settings/red-color.css" style="background-color: #d94c48;"></a></li>
+                        <li><a href="css/settings/purple-color.css" style="background-color: #bb68c8;"></a></li>
+						<li><a href="css/settings/sea-color.css" style="background-color: #0dcdbd;"></a></li>
+                        <li><a href="css/settings/yellow-color.css" style="background-color: #eae328;"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		
+		<!-- Preloader -->
+		<div id="preloader">
+  			<div class="loading-area">
+    			<div class="circle"></div>
+  			</div>
+  			<div class="left-side"></div>
+  			<div class="right-side"></div>
+		</div>
+		
+		<!-- Main Site -->
+		<div id="home">
+  		<div id="about">
+    	<div id="resume">
+     	<div id="portfolio">
+        <div id="blog">
+		<div id="contact">
+			
+			<div class="header-mobile">
+                <a class="header-toggle"><i class="fas fa-bars"></i></a>
+                <h2>Baha</h2>
+            </div>
+			
+			<!-- Left Block -->
+			<nav class="header-main" data-simplebar>
+		
+				<!-- Logo -->
+				<div class="logo">
+            		<img src="img/logo.png" alt="">
+            	</div>
+				
+          		<ul>
+					<li data-tooltip="casa" data-position="top">
+            			<a href="#home" class="icon-h fas fa-house-damage"></a>
+					</li>
+					<li data-tooltip="acerca de" data-position="top">
+            			<a href="#about" class="icon-a fas fa-user-tie"></a>
+					</li>
+					<li data-tooltip="reanudar" data-position="top">
+            			<a href="#resume" class="icon-r fas fa-address-book"></a>
+					</li>
+					<li data-tooltip="portafolio" data-position="top">
+            			<a href="#portfolio" class="icon-p fas fa-briefcase"></a>
+					</li>
+					<li data-tooltip="blog" data-position="top">
+            			<a href="#blog" class="icon-b fas fa-receipt"></a>
+					</li>
+					<li data-tooltip="contacto" data-position="bottom">
+						<a href="#contact" class="icon-c fas fa-envelope"></a>
+					</li>
+          		</ul>
+				
+				<!-- Sound wave -->
+    			<a class="music-bg" onclick="control()">
+      				<div class="lines">
+        				<span></span>
+        				<span></span>
+        				<span></span>
+        				<span></span>
+						<span></span>
+						<span></span>
+						
+			<audio autoplay loop>
+            <!--cambia el src por tu archivo de musica en formato mp3-->
+            <source src="bensound-beyondtheline.mp3" type="audio/mpeg">
+            	
+            </audio>
+      		
+      		</div>
+				<p> Sonido </p>					
+    		</a>
+
+        <script>
+         var contador=1;
+         var audio=document.getElementsByTagName("audio")[0];
+         audio.play();
+ 
+         function control(){
+ 
+            contador = contador+1
+            if (contador%2==0){
+            audio.pause();
+            } else {
+            audio.play();
+            }
+        }
+        </script>
+
+			 </nav>
+			
+			<!-- Home Section -->
+          	<div class="pt-home" style="background-image: url('img/home-bg.jpg')">
+             	<section>
+					
+					<!-- Banner -->
+					<div class="banner">
+  						<h1>Andrés Gaibor</h1>
+						<p class="cd-headline rotate-1">
+							<span>Soy un</span>
+							<span class="cd-words-wrapper">
+								<b class="is-visible">Diseñador</b>
+								<b>Fotografo</b>
+								<b>Desarrollador</b>
+								<b>Trabajador independiente</b>
+							</span>
+						</p>
+					</div>
+					
+					<!-- Language -->
+					<div class="lang">
+                		<ul>
+                   			<li><a href="#" class="active">eng</a></li>
+                    		<li><a href="#">rus</a></li>
+                		</ul>
+            		</div>
+		
+					<!-- Social -->
+					<div class="social">
+            			<ul>
+                			<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            			</ul>
+        			</div>
+			  	</section>  
+          	</div>
+			
+			<!-- About Section -->
+			<div class="page pt-about" data-simplebar>
+				<section class="container">
+					
+					<!-- Section Title -->
+					<div class="header-page mt-70 mob-mt">
+						<h2>Acerca de Mi</h2>
+						<span></span>
+					</div>
+				
+					<!-- Personal Info Start -->
+					<div class="row mt-100">
+					
+						<!-- Information Block -->
+						<div class="col-lg-12 col-sm-12">
+    						<div class="info box">
+								<div class="row">
+									<div class="col-lg-3 col-sm-4">
+										<div class="photo">
+											<img alt="" src="img/user-photo.jpg">		
+										</div>	
+									</div>
+									<div class="col-lg-9 col-sm-8">
+										<h4>Andres Gaibor</h4>
+										<div class="loc">
+											<i class="fas fa-map-marked-alt"></i> Quito, Ecuador
+										</div>
+										<p>¡Hola! Soy Andrés Gaibor un Fotografo, Desarrollador y Diseñador.
+											Desde pequeño siempre he querido emprender como Arquitecto pero al recibir el puntaje de la prueba de admicion universitaria; se me asigno la carrera de Diseño Grafico, en ese momento no conocia tanto de la carrera pero no me desanime sino que lo vi como una oportunidad para seguir superandome y sacar mi mejor potencial en esta profesión.
+										</p>
+										<p>Luego de culminar mis estudios, segui preparandome y aprendiendo en otros ambitos relacionados a la Web para asi ofrecerles lo mejor a ustedes.
+										</p>
+									</div>
+									
+									<!-- Icon Info -->
+									<div class="col-lg-3 col-sm-4">
+                                		<div class="info-icon">
+                                     		<i class="fas fa-award"></i>
+                                     		<div class="desc-icon">
+												<h6>5 años de trabajo</h6>
+                                            	<p>Experiencia</p>
+                                       		</div>
+                                		</div>
+                                	</div>
+									
+									<!-- Icon Info -->
+									<div class="col-lg-3 col-sm-4">
+                                		<div class="info-icon">
+                                     		<i class="fas fa-certificate"></i>
+                                     		<div class="desc-icon">
+												<h6>Mas de 50 proyectos</h6>
+                                            	<p>Completados</p>
+                                      		</div>
+                                		</div>
+                                	</div>
+									
+									<!-- Icon Info -->
+									<div class="col-lg-3 col-sm-4">
+                                		<div class="info-icon">
+                                     		<i class="fas fa-user-astronaut"></i>
+                                     		<div class="desc-icon">
+												<h6>Independiente</h6>
+                                           		<p>Disponible</p>
+                                        	</div>
+                                		</div>
+                                	</div>
+									<div class="col-lg-3 col-sm-12 pt-50">
+                                		<a href="#" class="btn-st">Descargar Curriculum</a>
+                                	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Interests Row Start -->
+					<div class="row mt-100">
+					
+						<!-- Header Block -->
+						<div class="col-md-12">
+							<div class="header-box mb-50">
+								<h3>Mis Intereces</h3>
+							</div>
+						</div>
+					
+						<div class="col-lg-12 col-sm-12">
+							<div class="box">
+								<div class="row">
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+                                     		<i class="fas fa-music"></i>
+                                    	 	<div class="desc-inter">
+												<h6>Musica</h6>
+                               	        	</div>
+										</div>
+									</div>
+								
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+                                     		<i class="fas fa-route"></i>
+                                     		<div class="desc-inter">
+												<h6>Viajar</h6>
+                                       		</div>
+                                		</div>
+									</div>
+								
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+                                 	    	<i class="far fa-image"></i>
+                                  		   	<div class="desc-inter">
+												<h6>Fotos</h6>
+                                  	     	</div>
+                                		</div>
+									</div>
+								
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+                                    	 	<i class="fas fa-film"></i>
+                                     		<div class="desc-inter">
+												<h6>Peliculas</h6>
+                                   	    	</div>
+                                		</div>
+									</div>
+								
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+                                 	    	<i class="fas fa-space-shuttle"></i>
+                                 	    	<div class="desc-inter">
+												<h6>Espacio</h6>
+                                	       	</div>
+                                		</div>
+									</div>
+								
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+                                    	 	<i class="fas fa-book"></i>
+                                     		<div class="desc-inter">
+												<h6>Libros</h6>
+                                    	   	</div>
+                                		</div>
+									</div>
+								
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+        	                             	<i class="fas fa-gamepad"></i>
+            	                         	<div class="desc-inter">
+												<h6>Videojuegos</h6>
+                    	                   	</div>
+                        	        	</div>
+									</div>
+								
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+        	                             	<i class="fas fa-tree"></i>
+            	                         	<div class="desc-inter">
+												<h6>Bosques</h6>
+                    	                   	</div>
+                        	        	</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+					<!-- Service Row Start -->
+					<div class="row mt-100">
+					
+						<!-- Header Block -->
+						<div class="col-md-12">
+							<div class="header-box mb-50">
+								<h3>Servicios</h3>
+							</div>
+						</div>
+					
+						<!-- Service Item -->
+						<div class="col-lg-6 col-sm-6">
+							<div class="service box mb-40">
+								<i class="fas fa-desktop"></i>
+								<h4>Diseño Web</h4>
+								<p>El diseño web es una actividad que consiste en la planificación, diseño, implementación y mantenimiento de sitios web.</p>
+							</div>
+						</div>
+
+						<!-- Service Item -->
+						<div class="col-lg-6 col-sm-6">
+							<div class="service box mb-40">
+								<i class="fas fa-cogs"></i>
+								<h4>Desarrollo Web</h4>
+								<p>Desarrollo web es un término que define la creación de sitios web para Internet o una intranet. Para conseguirlo se hace uso de tecnologías de software del lado del servidor y del cliente.</p>
+							</div>
+						</div>
+
+						<!-- Service Item -->
+						<div class="col-lg-6 col-sm-6">
+							<div class="service box mb-40">
+								<i class="fas fa-mobile-alt"></i>
+								<h4>Diseño de respuesta</h4>
+								<p>El diseño web con capacidad de respuesta permite que su sitio web se adapte al dispositivo en el que sus usuarios lo están viendo.</p>
+							</div>
+						</div>
+
+						<!-- Service Item -->
+						<div class="col-lg-6 col-sm-6">
+							<div class="service box mb-40">
+								<i class="fas fa-medkit"></i>
+								<h4>Soporte rapido</h4>
+								<p>Este servicio puede responder a la necesidad que usted tiene de tener su computadora funcionanado lo mas rapido posible.</p>
+							</div>
+						</div>
+					</div>
+				
+					<!-- Testimonial Row Start -->
+					<div class="row testimonial mt-60">
+					
+						<!-- Header Block -->
+						<div class="col-md-12">
+							<div class="header-box mb-50">
+								<h3>Testimonios</h3>
+							</div>
+						</div>
+						
+						<div class="owl-carousel owl-theme">
+	
+							<!-- Testimonail Item -->
+							<div class="testimonial-item">
+								<div class="media">
+									<img src="img/testimonials/testimonial-1.jpg" alt="">
+									<div class="content">
+										<h4>John Doe</h4>
+										<p>Web Development</p>
+									</div>
+									<ul class="rating">
+										<li><i class="far fa-star"></i></li>
+										<li><i class="far fa-star"></i></li>
+										<li><i class="far fa-star"></i></li>
+										<li><i class="far fa-star"></i></li>
+										<li><i class="far fa-star"></i></li>
+                                 	</ul>
+								</div>
+								<div class="comment pt-30">
+									<p>
+										Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
+										sem just metup consequat gestas facilisis eleifend posure tempor
+										metus sem just metup consequat gestas facilisis eleifend posures
+										temporureture.
+									</p>
+								</div>
+							</div>
+
+							<!-- Testimonail Item -->
+							<div class="testimonial-item">
+								<div class="media">
+									<img src="img/testimonials/testimonial-2.jpg" alt="">
+									<div class="content">
+										<h4>Alex Doe</h4>
+										<p>UI/UX Designer</p>
+									</div>
+									<ul class="rating">
+										<li><i class="far fa-star"></i></li>
+										<li><i class="far fa-star"></i></li>
+										<li><i class="far fa-star"></i></li>
+										<li><i class="far fa-star"></i></li>
+										<li><i class="far fa-star-half"></i></li>
+                                 	</ul>
+								</div>
+								<div class="comment pt-30">
+									<p>
+										Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
+										sem just metup consequat gestas facilisis eleifend posure tempor
+										metus sem just metup consequat gestas facilisis eleifend posures
+										temporureture.
+									</p>
+								</div>
+							</div>
+						
+							<!-- Testimonail Item -->
+							<div class="testimonial-item">
+								<div class="media">
+									<img src="img/testimonials/testimonial-3.jpg" alt="">
+									<div class="content">
+										<h4>David Doe</h4>
+										<p>UI/UX Designer</p>
+									</div>
+									<ul class="rating">
+										<li><i class="far fa-star"></i></li>
+										<li><i class="far fa-star"></i></li>
+										<li><i class="far fa-star"></i></li>
+										<li><i class="far fa-star"></i></li>
+                                 	</ul>
+								</div>
+								<div class="comment pt-30">
+									<p>
+										Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
+										sem just metup consequat gestas facilisis eleifend posure tempor
+										metus sem just metup consequat gestas facilisis eleifend posures
+										temporureture.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+					<!-- Price Row Start -->
+					<div class="row mt-100 mb-60">
+						
+						<!-- Header Block -->
+						<div class="col-md-12">
+							<div class="header-box mb-90">
+								<h3>Precio</h3>
+							</div>
+						</div>
+					
+						<!-- Price Item -->
+						<div class="col-lg-4 col-sm-12">
+							<div class="price box">
+								<div class="head-price">
+									<i class="fa fa-user"></i>
+									<h4>Basico</h4>
+								</div>
+								<div class="body-price">
+									<div class="price-plan">
+										<span class="currency">$</span>
+										<span class="number">25</span>
+										<span class="period">Mensual</span>
+									</div>
+									<div class="list-price">
+										<ul>
+											<li>Diseño Web</li>
+											<li>Desarrollo Web</li>
+											<li class="disable">Diseño de respuesta</li>
+											<li class="disable">Desarrollo de Juegos</li>
+										</ul>
+									</div>
+								</div>
+								<div class="footer-price">
+									<a href="#" class="btn-st">Comprar ahora</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Price Item -->
+						<div class="col-lg-4 col-sm-12">
+							<div class="price box">
+								<div class="head-price">
+									<i class="fa fa-briefcase"></i>
+									<h4>Estandar</h4>
+								</div>
+								<div class="body-price">
+									<div class="price-plan">
+										<span class="currency">$</span>
+										<span class="number">40</span>
+										<span class="period">Mensual</span>
+									</div>
+									<div class="list-price">
+										<ul>
+											<li>Diseño Web</li>
+											<li>Desarrollo Web</li>
+											<li>Diseño de Respuesta</li>
+											<li class="disable">Desarrollo de juegos</li>
+										</ul>
+									</div>
+								</div>
+								<div class="footer-price">
+									<a href="#" class="btn-st">Comprar ahora</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Price Item -->
+						<div class="col-lg-4 col-sm-12">
+							<div class="price box">
+								<div class="head-price">
+									<i class="fa fa-globe"></i>
+									<h4>Premium</h4>
+								</div>
+								<div class="body-price">
+									<div class="price-plan">
+										<span class="currency">$</span>
+										<span class="number">55</span>
+										<span class="period">Mensual</span>
+									</div>
+									<div class="list-price">
+										<ul>
+											<li>Diseño Web</li>
+											<li>Desarrollo Web</li>
+											<li>Diseño de Respuesta</li>
+											<li>Desarrollo de Juegos</li>
+										</ul>
+									</div>
+								</div>
+								<div class="footer-price">
+									<a href="#" class="btn-st">Comprar ahora</a>
+								</div>
+							</div>
+						</div>
+					</div>
+			  	</section>
+         	</div>
+			 
+			<!-- Resume Section -->
+          	<div class="page pt-resume" data-simplebar>
+            	<section class="container">
+					
+					<!-- Section Title -->
+					<div class="header-page mt-70 mob-mt">
+						<h2>Reanudar</h2>
+    					<span></span>
+					</div>
+					
+					<!-- Experience & Education Row Start -->
+					<div class="row mt-100">
+					
+						<!-- Experience Column Start -->
+						<div class="col-lg-6 col-sm-12">
+						
+							<!-- Header Block -->
+							<div class="header-box mb-50">
+								<h3>Experiencia</h3>
+							</div>
+						
+							<div class="experience box">
+								
+								<!-- Experience Item -->
+								<div class="item">
+									<div class="main">
+										<h4>Primer Empleo</h4>
+										<p><i class="far fa-calendar-alt"></i>2015 - 2017 | Empresa Primacy</p>
+									</div>
+									<p>Ingrese a esta empresa siendo joven y empese a realizar algunos proyectos los cuales me incorporaron en la creacion de publicidad, para esto me hisieron conocer programas como photoshop e illustrator.</p>
+								</div>
+
+								<!-- Experience Item -->
+								<div class="item">
+									<div class="main">
+										<h4>Emprendedor Independiente</h4>
+										<p><i class="far fa-calendar-alt"></i>2015 - 2020 | Mi propia Empresa</p>
+									</div>
+									<p>Ya emprendiendo como diseñador grafico y con previo aprendisaje en software como adobe photoshop y adobe illustrator, empece a trabajar una serie de proyectos basados en mi experiencia, tecnicas y conocimientos.</p>
+								</div>
+
+								<!-- Experience Item -->
+								<div class="item">
+									<div class="main">
+										<h4>Diseño Web</h4>
+										<p><i class="far fa-calendar-alt"></i>2015 - 2021 | Сompañia A&D</p>
+									</div>
+									<p>Para ampliar un poco mas mis conocimientos empese a interesarme por temas como el desarrollo y diseño web este ambito empeso a abrirme nuevas oportunidades, mis proyectos expuestos le interesaron a una compañia la cual me termino contratando. </p>
+								</div>
+							</div>
+						</div>
+							
+						<!-- Education Column Start -->
+						<div class="col-lg-6 col-sm-12">
+						
+							<!-- Header Block -->
+							<div class="header-box mb-50 mob-box-mt">
+								<h3>Educación</h3>
+							</div>
+						
+							<div class="experience box">
+
+								<!-- Education Item -->
+								<div class="item">
+									<div class="main">
+										<h4>Primaria</h4>
+										<p><i class="far fa-calendar-alt"></i>2006 - 2013 | Nivel Basico</p>
+									</div>
+									<p>Mis primeros años de primaria los obtuve en la escuela 5 de junio la cual se encontrava serca de el lugar donde recidia, en ese entonses vivia con mis abuelitos en el campo, pero una ves que me mude con mi mama al canton,termine mi educacion en la escuela ciudad de Ventanas.</p>
+								</div>
+
+								<!-- Education Item -->
+								<div class="item">
+									<div class="main">
+										<h4>Secundaria</h4>
+										<p><i class="far fa-calendar-alt"></i>2013 - 2019 | Bachillerato en Ciencias</p>
+									</div>
+									<p>Empese mi bachillerato en la escuela ciudad de ventanas, luego entre a la unidad educativo Ispano Americano; era un Colegio Militar, y culmide mi bachillerato en el colegio Humberto Moreira Marques</p>
+								</div>
+
+								<!-- Education Item -->
+								<div class="item">
+									<div class="main"> 
+										<h4>Tecnologo - Tercer Nivel</h4>
+										<p><i class="far fa-calendar-alt"></i>2019 - 2022 | Diseño Grafico</p>
+									</div>
+									<p>Ingrese al istituto Superior Tecnologico Babahoyo (ISTB) curse la carrera de Diseño Grafico la cual se basa en diseñar, ilustrar, crear etc.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+					<!-- Skills Row Start -->
+					<div class="row mt-100">
+					
+						<!-- Header Block -->
+						<div class="col-md-12">
+							<div class="header-box mb-50">
+								<h3>Habilidades</h3>
+							</div>
+						</div>
+					</div>
+					
+					<div class="box skills">
+						<div class="row">
+							<div class="col-lg-6 col-sm-6">
+
+								<!-- Skill Item -->
+								<div class="skill-item">
+									<h4 class="progress-title">HTML5</h4>
+									<div class="progress">
+										<div class="progress-bar" style="width:98%">
+											<div class="progress-value">98%</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Skill Item -->
+								<div class="skill-item">
+									<h4 class="progress-title">CSS3</h4>
+									<div class="progress">
+										<div class="progress-bar" style="width:85%">
+											<div class="progress-value">85%</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Skill Item -->
+								<div class="skill-item">
+									<h4 class="progress-title">JavaScript</h4>
+									<div class="progress">
+										<div class="progress-bar" style="width:90%">
+											<div class="progress-value">90%</div>
+										</div>
+									</div>
+								</div>
+							
+								<!-- Skill Item -->
+								<div class="skill-item">
+									<h4 class="progress-title">UI/UX designer</h4>
+									<div class="progress">
+										<div class="progress-bar" style="width:77%">
+											<div class="progress-value">77%</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 col-sm-6">
+								<div class="row">
+									
+									<!-- Skill Item -->
+									<div class="col-lg-6 col-sm-6">
+										<div class="chart" data-percent="80" data-bar-color="#fff"> 80% <p>PHP</p></div>
+									</div>
+									
+									<!-- Skill Item -->
+									<div class="col-lg-6 col-sm-6">
+										<div class="chart" data-percent="70" data-bar-color="#fff"> 70% <p>Illustrator</p></div>
+									</div>
+									
+									<!-- Skill Item -->
+									<div class="col-lg-6 col-sm-6">
+										<div class="chart" data-percent="60" data-bar-color="#fff"> 60% <p>Photoshop</p></div>
+									</div>
+									
+									<!-- Skill Item -->
+									<div class="col-lg-6 col-sm-6">
+										<div class="chart" data-percent="90" data-bar-color="#fff"> 90% <p>AngularJS</p></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+					<!-- Work Process Row Start -->
+					<div class="row mt-100">
+					
+						<!-- Header Block -->
+						<div class="col-md-12">
+							<div class="header-box mb-50">
+								<h3>Mi Proceso de Trabajo</h3>
+							</div>
+						</div>
+					</div>
+					
+					<div class="box work-process mb-100">
+						<div class="row">
+							<div class="col-lg-4 col-sm-12 ltr">
+							
+                    			<!-- Working Process Item-->
+                          	 	<div class="single-wp width-sm process-1">
+									<p class="wp-step">01</p>
+									<h4 class="wp-title">Discutir la Idea</h4>
+									<p>Debatimos una idea para llegar a un acuerdo beneficioso para el proyecto.</p>
+								</div>
+
+								<!-- Working Process Item-->
+								<div class="single-wp width-sm process-2">
+									<p class="wp-step">02</p>
+									<h4 class="wp-title">Concepto Creativo</h4>
+									<p>Llegamos a una idea unica y original a traves de la que se desarrollan las diferentes expreciones.</p>
+								</div>
+							</div>
+					
+							<div class="col-lg-4 hidden-sm">
+							
+								<!-- Working Process Circle-->
+								<div class="wp-circle">
+									<h4>Proceso de Trabajo</h4>
+									<span class="dots top-l"></span>
+									<span class="dots bottom-l"></span>
+									<span class="dots top-r"></span>
+									<span class="dots bottom-r"></span>
+								</div>
+							</div>
+					
+							<div class="col-lg-4 col-sm-12 rtl">
+						
+								<!-- Working Process Item-->
+								<div class="single-wp width-sm process-3">
+									<p class="wp-step">03</p>
+									<h4 class="wp-title">Concepto Web</h4>
+									<p>Esto se enfoca en el conjunto de información que se encuentra en una dirección determinada de internet, es decir en nuestro caso la pagina que elaboramos.</p>
+								</div>
+	
+								<!-- Working Process Item-->
+								<div class="single-wp width-sm process-4">
+									<p class="wp-step">04</p>
+									<h4 class="wp-title">Concepto Final</h4>
+									<p>Es la finalizacion de el debate iniciado, mejor dicho; el resultado de una conclucion.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			  	</section>
+         	</div>
+			 
+			<!-- Portfolio Section -->
+          	<div class="page pt-portfolio" data-simplebar>
+            	<section class="container">
+					
+					<!-- Section Title -->
+					<div class="header-page mt-70 mob-mt">
+						<h2>Portafolio</h2>
+    					<span></span>
+					</div>
+					
+					<!-- Portfolio Filter Row Start -->
+					<div class="row mt-100">
+						<div class="col-lg-12 col-sm-12 portfolio-filter">
+							<ul>
+								<li class="active" data-filter="*">Todo</li>
+								<li data-filter=".brand">Marca</li>
+								<li data-filter=".design">Diseño</li>
+								<li data-filter=".graphic">Grafico</li>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- Portfolio Item Row Start -->
+					<div class="row portfolio-items mt-100 mb-100">
+					
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 graphic">
+							<figure>
+								<img alt="" src="img/portfolio/img-1.jpg">
+								<figcaption>
+									<h3>Chica Tridimencional</h3>
+									<p>Grafico</p><i class="fas fa-image"></i>
+									<a class="image-link" href="img/portfolio/img-1.jpg"></a>
+								</figcaption>
+							</figure>
+						</div>
+					
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 design">
+							<figure>
+								<img alt="" src="img/portfolio/img-2.jpg">
+									<figcaption>
+									<h3>Hombre Ramificación</h3>
+									<p>Diseño</p><i class="fas fa-image"></i>
+									<a class="image-link" href="img/portfolio/img-2.jpg"></a>
+								</figcaption>
+							</figure>
+						</div>
+					
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 brand">
+							<figure>
+								<img alt="" src="img/portfolio/img-3.jpg">
+								<figcaption>
+									<h3>Proyecto Neon</h3>
+									<p>Grafico</p><i class="fas fa-video"></i>
+									<a class="video-link" href="https://www.youtube.com/watch?v=YAmD7dAlQsc&t=21s"></a>
+								</figcaption>
+							</figure>
+						</div>
+					
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 graphic">
+							<figure>
+								<img alt="" src="img/portfolio/img-4.jpg">
+								<figcaption>
+									<h3>Hombre Levitacion</h3>
+									<p>Diseño</p><i class="fas fa-image"></i>
+									<a class="image-link" href="img/portfolio/img-4.jpg"></a>
+								</figcaption>
+							</figure>
+						</div>
+					
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 design">
+							<figure>
+								<img alt="" src="img/portfolio/img-5.jpg">
+								<figcaption>
+									<h3>Proyecto Instagram</h3>
+									<p>Diseño</p><i class="fas fa-video"></i>
+									<a class="video-link" href="https://www.youtube.com/watch?v=L02PGQGr3VQ&t=155s"></a>
+								</figcaption>
+							</figure>
+						</div>
+					
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 brand">
+							<figure>
+								<img alt="" src="img/portfolio/img-6.jpg">
+								<figcaption>
+									<h3>Personaje 3D</h3>
+									<p>Marca</p><i class="fas fa-image"></i>
+									<a class="image-link" href="img/portfolio/img-6.jpg"></a>
+								</figcaption>
+							</figure>
+						</div>
+					
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 graphic">
+							<figure>
+								<img alt="" src="img/portfolio/img-7.jpg">
+								<figcaption>
+									<h3>Cabeza Recorte</h3>
+									<p>Marca</p><i class="fas fa-image"></i>
+									<a class="image-link" href="img/portfolio/img-7.jpg"></a>
+								</figcaption>
+							</figure>
+						</div>
+					
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 design">
+							<figure>
+								<img alt="" src="img/portfolio/img-8.jpg">
+								<figcaption>
+									<h3>Mockup</h3>
+									<p>Marca</p><i class="fas fa-image"></i>
+									<a class="image-link" href="img/portfolio/img-8.jpg"></a>
+								</figcaption>
+							</figure>
+						</div>
+					
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 brand">
+							<figure>
+								<img alt="" src="img/portfolio/img-9.jpg">
+								<figcaption>
+									<h3>Mockup</h3>
+									<p>Grafico</p><i class="fas fa-image"></i>
+									<a class="image-link" href="img/portfolio/img-9.jpg"></a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</section>
+       	   	</div>
+			 <!-- Blog Section -->
+          	<div class="page pt-blog" data-simplebar>
+            	<section class="container">
+					
+					<!-- Section Title -->
+             		<div class="header-page mt-70 mob-mt">
+						<h2>Blog</h2>
+    					<span></span>
+					</div>
+					
+					<!-- Blog Row Start -->
+					<div class="row blog-masonry mt-100 mb-50">
+						
+						<!-- Blog Item -->
+						<div class="col-lg-4 col-sm-6">
+							<div class="blog-item">
+								<div class="thumbnail">
+									<a href="single-blog.html"><img alt="" src="img/blog/img-1.jpg"></a>
+								</div>
+								<h4><a href="single-blog.html">Camino al Exito</a></h4>
+								<ul>
+                            		<li><a href="#">15 de Enero 2022</a></li>
+                            		<li><a href="#">Trabajo</a></li>
+                           		</ul>
+								<div class="blog-btn">
+									<a href="single-blog.html" class="btn-st">Leer más</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Blog Item -->
+						<div class="col-lg-4 col-sm-6">
+							<div class="blog-item">
+								<div class="thumbnail">
+									<a href="single-blog.html"><img alt="" src="img/blog/img-2.jpg"></a>
+									<a href="https://www.youtube.com/watch?v=UsTZDbYOyTs&t=106s" class="btn-play"></a>
+								</div>
+								<h4><a href="single-blog.html">Aprender a ser Autodidacta</a></h4>
+								<ul>
+                            		<li><a href="#">10 de Octubre 2021</a></li>
+                            		<li><a href="#">Estilo de vida</a></li>
+                           		</ul>
+								<div class="blog-btn">
+									<a href="single-blog.html" class="btn-st">Leer más</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Blog Item -->
+						<div class="col-lg-4 col-sm-6">
+							<div class="blog-item">
+								<div class="thumbnail">
+									<a href="single-blog.html"><img alt="" src="img/blog/img-3.jpg"></a>
+								</div>
+								<h4><a href="single-blog.html">Emprendedor visionario</a></h4>
+								<ul>
+                            		<li><a href="#">02 de Mayo 2021</a></li>
+                            		<li><a href="#">Trabajo</a></li>
+                            	</ul>
+								<p>Un visionario-emprendedor es aquella persona que posee olfato y que sabe encontrar las oportunidades, no siempre la idea surge...</p>
+								<div class="blog-btn">
+									<a href="single-blog.html" class="btn-st">Leer más</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Blog Item -->
+						<div class="col-lg-4 col-sm-6">
+							<div class="blog-item">
+								<div class="thumbnail">
+									<a href="single-blog.html"><img alt="" src="img/blog/img-4.jpg"></a>
+								</div>
+								<h4><a href="single-blog.html">"Un viaje de mil kilómetros comienza con un solo paso"</a></h4>
+								<ul>
+                            		<li><a href="#">29 de Marzo 2021</a></li>
+                            		<li><a href="#">Estilo de vida</a></li>
+                            	</ul>
+								<div class="blog-btn">
+									<a href="single-blog.html" class="btn-st">Leer más</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Blog Item -->
+						<div class="col-lg-4 col-sm-6">
+							<div class="blog-item">
+								<div class="thumbnail">
+									<a href="single-blog.html"><img alt="" src="img/blog/img-5.jpg"></a>
+								</div>
+								<h4><a href="single-blog.html">Cookies HTTP: cómo funcionan y cómo usarlas</a></h4>
+								<ul>
+									<li><a href="#">19 de Febrero 2021</a></li>
+                            		<li><a href="#">Trabajo</a></li>
+                            	</ul>
+								<p>Hoy vamos a escribir sobre la forma de almacenar datos en un navegador, por qué los sitios web utilizan cookies y cómo funcionan en detalle.</p>
+								<div class="blog-btn">
+									<a href="single-blog.html" class="btn-st">Leer más</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Blog Item -->
+						<div class="col-lg-4 col-sm-6">
+							<div class="blog-item">
+								<div class="thumbnail">
+									<a href="single-blog.html"><img alt="" src="img/blog/img-6.jpg"></a>
+									<a href="https://www.youtube.com/watch?v=QTDPOxnfRaI&t=50s" class="btn-play"></a>
+								</div>
+								<h4><a href="single-blog.html">¿Cuáles son las areas de la programación?</a></h4>
+								<ul>
+                           		 	<li><a href="#">29 de Noviembre 2020</a></li>
+                           		 	<li><a href="#">Estudio</a></li>
+                        	    </ul>
+								<div class="blog-btn">
+									<a href="single-blog.html" class="btn-st">Leer más</a>
+								</div>
+							</div>
+						</div>
+					</div>
+            	</section>
+			</div>
+			 
+			<!-- Contact Section -->
+         	<div class="page pt-contact" data-simplebar>
+            	<section class="container">
+					
+					<!-- Section Title -->
+              		<div class="header-page mt-70 mob-mt">
+						<h2>Contacto</h2>
+    					<span></span>
+					</div>
+					
+					<!-- Form Start -->
+					<div class="row mt-100">
+						<div class="col-lg-12 col-sm-12">
+							<div class="contact-form ">
+                        		<form method="post" class="box contact-valid" id="contact-form">
+									<div class="row">
+                            			<div class="col-lg-6 col-sm-12">
+                                			<input type="text" name="name" id="name" class="form-control" placeholder="Nombre *">
+                            			</div>
+                            			<div class="col-lg-6 col-sm-12">
+                                			<input type="email" name="email" id="email" class="form-control" placeholder="Email *">
+                            			</div>
+                            			<div class="col-lg-12 col-sm-12">
+                                			<textarea class="form-control" name="note"  id="note" placeholder="Tu mensaje"></textarea>
+                            			</div>
+                             			<div class="col-lg-12 col-sm-12 text-center">
+                                			<button type="submit" class="btn-st">Enviar mensaje</button>
+                                			<div id="loader">
+                                    			<i class="fas fa-sync"></i>
+                                			</div>
+                            			</div>
+										<div class="col-lg-12 col-sm-12">
+                            				<div class="error-messages">
+                                				<div id="success">
+													<i class="far fa-check-circle"></i>Thank you, your message has been sent.
+												</div>
+                                				<div id="error">
+													<i class="far fa-times-circle"></i>Error occurred while sending email. Please try again later.
+												</div>
+											</div>
+                            			</div>
+									</div>
+                    			</form>
+                    		</div>
+						</div>
+					</div>
+					
+					<!-- Contact Info -->
+					<div class="box contact-info">
+						<div class="row">
+							<div class="col-lg-4 col-sm-12 info">
+								<i class="fas fa-paper-plane"></i>
+         						<p>andresgaibor120@gmail.com</p>
+          						<span>Email</span>
+							</div>
+							<div class="col-lg-4 col-sm-12 info">
+								<i class="fas fa-map-marker-alt"></i>
+         						<p>Calle 93B #13 - 47 E.C.</p>
+         						
+           						<span>Direccion</span>
+							</div>	
+							<div class="col-lg-4 col-sm-12 info">
+								<i class="fas fa-phone"></i>
+         						<p>(+1) 123 456 7890</p>
+          						<span>Telefono</span>
+							</div>	
+						</div>
+					</div>
+					
+					<!--Google Map Start-->
+					<div class="google-map box mt-100 mb-100">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7979.594199962504!2d-78.48417699422714!3d-0.18686916961546948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59b5cd8913063%3A0x7ca12cde152a3229!2sMarketing%20Design!5e0!3m2!1ses!2sec!4v1643228657069!5m2!1ses!2sec" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>								
+								<div id="map" data-latitude="40.712775" data-longitude="-74.005973" data-zoom="14"></div>
+							</div>
+						</div>
+					</div>
+            	</section>
+          	</div> 
+			
+        </div>
+      	</div>
+    	</div>
+  		</div>
+		</div>
+		</div>
+		
+		<!-- All Script -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/simplebar.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/jquery.animatedheadline.min.js"></script>
+		<script src="js/jquery.easypiechart.js"></script>
+		<script src="js/jquery.validation.js"></script>
+		<script src="js/tilt.js"></script>
+        <script src="js/main.js"></script>
+		<script src="js/main-demo.js"></script>
+        <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+		
+    </body>
+
+</html>
